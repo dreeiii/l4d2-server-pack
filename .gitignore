@@ -65,3 +65,4 @@ cfg/video.txt
 cfg/videodefaults.txt
 addons/sourcemod/logs
 addons/sourcemod/data/sqlite
+addons/sourcemod/gamedata/left4dhooks.temp.txt
