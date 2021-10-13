@@ -8,7 +8,6 @@
 	"Speedhacking"			"Speedhacking"
 	"Mic spamming"			"Mic spamming"
 	"Admin disrespect"		"Admin disrespect"
-	"Trolling/Douchebaggery"	"Trolling/Douchebaggery"
 	"Camping"			"Camping"
 	"Team killing"			"Team killing"
 	"Unacceptable Spray"		"Unacceptable Spray"
