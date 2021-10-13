@@ -61,3 +61,6 @@ cfg/video_bench_low.txt
 cfg/video_bench_medium.txt
 cfg/video_bench_very_high.txt
 cfg/video_bench_very_high_4k.txt
+cfg/config.cfg
+cfg/video.txt
+cfg/videodefaults.txt
