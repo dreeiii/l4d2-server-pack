@@ -1,0 +1,49 @@
+"Games"
+{
+    "left4dead"
+    {
+		"Signatures"
+		{
+			"SetHumanSpec"
+			{
+				"library"	"server"
+				"linux" "@_ZN11SurvivorBot17SetHumanSpectatorEP13CTerrorPlayer"
+				"windows" "\x2A\x2A\x2A\x2A\x2A\x2A\x2E\x00\x00\x00\x56\x8D\xB3\x80\x2E\x00\x00"
+			}
+			"TakeOverBot"
+			{
+				"library"	"server"
+				"linux"	"@_ZN13CTerrorPlayer11TakeOverBotEb"
+				"windows" "\x81\x2A\x2A\x2A\x2A\x2A\x53\x55\x56\x57\x8D\x2A\x2A\x2A\x8B\xF9\x33\xDB\x50"
+			}
+		}
+    }
+    "left4dead2"
+    {
+		"Signatures"
+		{
+			/*
+			 * CTerrorPlayer::TakeOverBot
+			 * unique string "[TAKEOVER]: %s (%d) possessed %s"
+			 */
+			"TakeOverBot"
+			{
+				"library"	"server"
+				"linux"		"@_ZN13CTerrorPlayer11TakeOverBotEb"
+				"windows"	"\x55\x8B\xEC\x81\xEC\x2A\x2A\x2A\x2A\xA1\x2A\x2A\x2A\x2A\x33\xC5\x89\x45\xFC\x53\x56\x8D\x85"
+			}
+
+			/*
+			 * SurvivorBot::SetHumanSpectator(CTerrorPlayer*)
+			 * Very similar to BossZombiePlayerBot::SetHumanSpectator()
+			 * SurvivorBot version has 5 xref (one of them is CTerrorPlayer::TakeOverBot), BossZombie has just 1 (CTerrorPlayer::TakeOverBot)
+			 */
+			"SetHumanSpec"
+			{
+				"library"	"server"
+				"linux"		"@_ZN11SurvivorBot17SetHumanSpectatorEP13CTerrorPlayer"
+				"windows" 	"\x2A\x2A\x2A\x2A\x2A\x2A\x83\xBE\x44\x43\x00\x00\x00\x7E\x2A\x32\xC0\x5E\x5D\xC2\x04\x00"
+			}
+		}
+    }
+}
