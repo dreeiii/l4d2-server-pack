@@ -1,8 +1,13 @@
 ﻿/*
 !.gitignore
 !addons
+addons/workshop/*
+addons/sourcemod/logs
+addons/sourcemod/data/sqlite
+addons/sourcemod/gamedata/left4dhooks.temp.txt
+!addons/workshop/2276071285.jpg
+!addons/workshop/2276071285.vpk
 !cfg
-addons/workshop
 cfg/360controller.cfg
 cfg/addonconfig.cfg
 cfg/autoexec.360.cfg
@@ -63,6 +68,3 @@ cfg/video_bench_very_high_4k.txt
 cfg/config.cfg
 cfg/video.txt
 cfg/videodefaults.txt
-addons/sourcemod/logs
-addons/sourcemod/data/sqlite
-addons/sourcemod/gamedata/left4dhooks.temp.txt
