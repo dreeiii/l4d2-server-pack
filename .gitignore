@@ -5,6 +5,8 @@ addons/workshop/*
 addons/sourcemod/logs
 addons/sourcemod/data/sqlite
 addons/sourcemod/gamedata/left4dhooks.temp.txt
+addons/sourcemod/configs/admins_simple.ini
+addons/sourcemod/configs/admins.cfg
 !addons/workshop/2276071285.jpg
 !addons/workshop/2276071285.vpk
 !cfg
@@ -68,5 +70,3 @@ cfg/video_bench_very_high_4k.txt
 cfg/config.cfg
 cfg/video.txt
 cfg/videodefaults.txt
-addons/sourcemod/configs/admins_simple.ini
-addons/sourcemod/configs/admins.cfg
