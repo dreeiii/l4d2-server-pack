@@ -1,4 +1,4 @@
-﻿/*
+/*
 !.gitignore
 !addons
 addons/workshop/*
@@ -68,3 +68,5 @@ cfg/video_bench_very_high_4k.txt
 cfg/config.cfg
 cfg/video.txt
 cfg/videodefaults.txt
+addons/sourcemod/configs/admins_simple.ini
+addons/sourcemod/configs/admins.cfg
